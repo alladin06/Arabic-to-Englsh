@@ -6,7 +6,7 @@ import mimetypes
 import google.generativeai as genai
 genai.configure(api_key="AIzaSyB8ovRcedOCeXnAsdXX4MDXDkvcSQHNnfs")
 
-# Set up the model
+st.title("Arabic to English Traslation")
 generation_config = {
   "temperature": 1,
   "top_p": 0.95,
